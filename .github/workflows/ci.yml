@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  pipeline:
+    name: Build warehouse + run metrics + quality check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download dataset
+        run: python -m src.download
+
+      - name: Build warehouse
+        run: python -m src.build_warehouse
+
+      - name: Run metrics layer
+        run: python -m src.run_metrics
+
+      - name: Quality check
+        run: python -m src.quality_check
+
+      - name: Run dashboard smoke test
+        run: |
+          python -c "
+          from dashboard.app import app
+          print('Dashboard app imported OK')
+          "
+
+      - name: Upload quality report as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quality-report
+          path: docs/data_quality_report.md
