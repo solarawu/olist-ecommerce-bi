@@ -34,18 +34,16 @@
 
 >  数据集特性：90%+ 客户只买一次，F 维度的失效是数据本身决定的，已在文档和看板中显式标注。
 
-##  看板预览
-
+## 看板预览
 点击可查看大图。
-
-###  总览页
-![总览](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/overview.png)
-###  用户分层（RFM）
-![用户分层](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/rfm.png)
-###  品类帕累托
-![品类帕累托](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/category.png)
-###  履约漏斗
-![履约漏斗](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/funnel.png)
+### 总览页
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/overview.png" width="100%" alt="总览" />
+### 用户分层（RFM）
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/rfm.png" width="100%" alt="用户分层" />
+### 品类帕累托
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/category.png" width="100%" alt="品类帕累托" />
+### 履约漏斗
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/funnel.png" width="100%" alt="履约漏斗" />
 
 ##  技术栈
 
