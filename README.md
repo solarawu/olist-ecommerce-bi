@@ -44,8 +44,6 @@
 | --- | --- |
 | ![category](screenshots/category.png) | ![funnel](screenshots/funnel.png) |
 
-> 替换方法：启动看板后截图放到 `screenshots/` 目录，文件名保持一致即可。
-
 ##  技术栈
 
 | 层 | 选型 | 理由 |
@@ -153,17 +151,6 @@ CSV (raw)
 | 一单多评 | 547 | 取最新一条 |
 | 订单无支付记录 | 1 | `COALESCE(payment_total, 0)` |
 | Delivered 订单缺签收时间 | 8 | 履约分析显式排除 |
-
-##  部署
-
-看板可直接部署到 **Streamlit Community Cloud** 免费托管：
-
-1. 把仓库推到 GitHub
-2. 打开 [share.streamlit.io](https://share.streamlit.io)，Connect Account → New App
-3. Repository 选你的仓库，Branch 选 `main`，Main file path 填 `dashboard/app.py`
-4. 注意：云端是全新环境，没有本地 data/ 目录。在 **Advanced settings → Secrets** 里留空（本项目不需要 secrets），在 **Settings → Modules and packages** 里添加 `python -m src.download && python -m src.build_warehouse && python -m src.run_metrics` 作为启动前脚本（或把 `data/warehouse/olist.duckdb` 一并提交，约 64MB）。
-
-也可以用 GitHub Pages 托管 README + `screenshots/` 目录，作为项目展示页。
 
 ##  已知局限与路线图
 
