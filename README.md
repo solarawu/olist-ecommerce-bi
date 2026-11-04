@@ -37,13 +37,13 @@
 ## 看板预览
 点击可查看大图。
 ### 总览页
-<img src="https://solarawu.github.io/solarawu/olist-ecommerce-bi/screenshots/overview.jpg" width="100%" alt="总览" />
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/overview.jpg" width="100%" alt="总览" />
 ### 用户分层（RFM）
-<img src="https://solarawu.github.io/solarawu/olist-ecommerce-bi/screenshots/rfm.jpg" width="100%" alt="用户分层" />
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/rfm.jpg" width="100%" alt="用户分层" />
 ### 品类帕累托
-<img src="https://solarawu.github.io/solarawu/olist-ecommerce-bi/screenshots/category.jpg" width="100%" alt="品类帕累托" />
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/category.jpg" width="100%" alt="品类帕累托" />
 ### 履约漏斗
-<img src="https://solarawu.github.io/solarawu/olist-ecommerce-bi/screenshots/funnel.jpg" width="100%" alt="履约漏斗" />
+<img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/funnel.jpg" width="100%" alt="履约漏斗" />
 
 ##  技术栈
 
