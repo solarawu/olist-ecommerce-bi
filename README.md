@@ -38,11 +38,11 @@
 
 点击可查看大图。
 
-| 📊 总览页 | 👥 用户分层（RFM） |
+|  总览页 |  用户分层（RFM） |
 | --- | --- |
 | <img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/overview.jpg" alt="总览" /> | <img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/rfm.jpg" alt="用户分层" /> |
 
-| 🛍️ 品类帕累托 | 🚚 履约漏斗 |
+|  品类帕累托 |  履约漏斗 |
 | --- | --- |
 | <img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/category.jpg" alt="品类帕累托" /> | <img src="https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi/screenshots/funnel.jpg" alt="履约漏斗" />
 
