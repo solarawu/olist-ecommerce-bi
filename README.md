@@ -40,13 +40,10 @@
 
 ###  总览页
 ![总览](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/overview.png)
-
 ###  用户分层（RFM）
 ![用户分层](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/rfm.png)
-
 ###  品类帕累托
 ![品类帕累托](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/category.png)
-
 ###  履约漏斗
 ![履约漏斗](https://cdn.jsdelivr.net/gh/solarawu/olist-ecommerce-bi@main/screenshots/funnel.png)
 
